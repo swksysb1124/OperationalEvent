@@ -2,10 +2,12 @@ package crop.computer.askey.windowoperationpractice.mainmenu;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ScrollView;
 
 import crop.computer.askey.windowoperationpractice.BaseActivity;
 import crop.computer.askey.windowoperationpractice.windowoperation.gesture.FlingActivity;
 import crop.computer.askey.windowoperationpractice.windowoperation.gesture.LongPressActivity;
+import crop.computer.askey.windowoperationpractice.windowoperation.gesture.ScrollActivity;
 import crop.computer.askey.windowoperationpractice.windowoperation.system.BackButtonActivity;
 import crop.computer.askey.windowoperationpractice.windowoperation.system.HomeButtonActivity;
 import crop.computer.askey.windowoperationpractice.windowoperation.system.OrientationChangeDetectionActivity;
@@ -32,6 +34,10 @@ public class MainMenuActivity extends BaseActivity {
 
     public void goToFlingPage(View v) {
         goToPage(FlingActivity.class);
+    }
+
+    public void goToScrollPage(View view) {
+        goToPage(ScrollActivity.class);
     }
 
     public void goToLongPressPage(View v) {

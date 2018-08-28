@@ -46,6 +46,19 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_orientation_change_page" />
 
     <Button
+        android:id="@+id/btn_scroll_page"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="捲動\n(Scroll)"
+        android:onClick="goToScrollPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_orientation_change_page" />
+
+    <Button
         android:id="@+id/btn_long_press_page"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -56,7 +69,7 @@
         android:onClick="goToLongPressPage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_fling_page" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_scroll_page" />
 
     <Button
         android:id="@+id/btn_back_button"

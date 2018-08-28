@@ -24,7 +24,8 @@
         <activity android:name=".windowoperation.system.HomeButtonActivity" />
         <activity android:name=".windowoperation.system.BackButtonActivity" />
         <activity android:name=".BaseActivity" />
-        <activity android:name=".windowoperation.system.VolumeButtonActivity"></activity>
+        <activity android:name=".windowoperation.system.VolumeButtonActivity" />
+        <activity android:name=".windowoperation.gesture.ScrollActivity"></activity>
     </application>
 
 </manifest>
