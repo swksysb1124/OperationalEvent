@@ -10,6 +10,7 @@
 - 單點擊 (Single Tap)
 - 雙點擊 (Double Tap)
 - 滑動 (Fling)
+- 捲動 (Scroll)
 - 長按 (Long Press)
 
 
