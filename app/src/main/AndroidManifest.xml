@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="crop.computer.askey.windowoperationpractice">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mainmenu.MainMenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".windowoperation.gesture.TapDoubleTapActivity" />
+        <activity android:name=".windowoperation.gesture.GestureDetectionActivity" />
+        <activity android:name=".windowoperation.system.OrientationChangeDetectionActivity" />
+        <activity android:name=".windowoperation.gesture.FlingActivity" />
+        <activity android:name=".windowoperation.gesture.LongPressActivity" />
+        <activity android:name=".windowoperation.system.HomeButtonActivity" />
+        <activity android:name=".windowoperation.system.BackButtonActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".windowoperation.system.VolumeButtonActivity"></activity>
+    </application>
+
+</manifest>
